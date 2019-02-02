@@ -1,0 +1,78 @@
+gnome-theme-kali (2018.3.0) kali-dev; urgency=medium
+
+  * Update Kali-X theme and fix Kali-X-Dark theme (see bug 4585)
+
+ -- Sophie Brun <sophie@freexian.com>  Thu, 31 May 2018 11:31:13 +0200
+
+gnome-theme-kali (2016.3.2) kali-dev; urgency=medium
+
+  * Fix theme in N-Sight Eclipse with a dark theme, cf
+    https://bugs.kali.org/view.php?id=3630
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Tue, 27 Sep 2016 09:46:11 +0200
+
+gnome-theme-kali (2016.3.1) kali-dev; urgency=medium
+
+  * Update Kali-X theme for GNOME 3.21/3.22
+  * Update Icons
+
+ -- Sophie Brun <sophie@freexian.com>  Fri, 23 Sep 2016 16:02:57 +0200
+
+gnome-theme-kali (2016.3.0) kali-dev; urgency=medium
+
+  * Fix some problems with GTK-3.21/3.22.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Thu, 15 Sep 2016 12:07:08 +0200
+
+gnome-theme-kali (2016.2.0) kali-dev; urgency=medium
+
+  * Fix small issue with buttons for non CSD
+
+ -- Sophie Brun <sophie@freexian.com>  Tue, 17 May 2016 10:10:55 +0200
+
+gnome-theme-kali (2016.1.1) kali-dev; urgency=medium
+
+  * Update Kali-X theme for GNOME 3.20.
+  * Copy Kali-X theme gtk 3.18 in directory gtk-3.18 and create a new directory
+    gtk-3.20
+  * Delete old directory gtk-3.0 and replace it by a symlink on 3.20
+  * Rename icons hamster-time-tracker overview.png in
+    hamster-time-tracker-overview.png
+
+ -- Sophie Brun <sophie@freexian.com>  Thu, 21 Apr 2016 15:13:01 +0200
+
+gnome-theme-kali (2016.1.0) kali-dev; urgency=medium
+
+  * Minor update that adds scrollbar steppers.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Mon, 21 Dec 2015 20:36:37 +0100
+
+gnome-theme-kali (2015.3.0) kali-dev; urgency=medium
+
+  * Update Kali-X theme for GNOME 3.18.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Wed, 25 Nov 2015 20:54:16 +0100
+
+gnome-theme-kali (1.3) kali-dev; urgency=medium
+
+  * Update Kali-X GTK theme for GnomeShell/GTK 3.16 & 3.18
+
+ -- Sophie Brun <sophie@freexian.com>  Fri, 23 Oct 2015 16:25:20 +0200
+
+gnome-theme-kali (1.2) kali-dev; urgency=medium
+
+  * Drop unwanted dependency on gnome-shell.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Fri, 12 Jun 2015 15:31:11 +0200
+
+gnome-theme-kali (1.1) kali-dev; urgency=medium
+
+  * Fix debian/control: Architecture: all 
+
+ -- Sophie Brun <sophie@freexian.com>  Thu, 28 May 2015 15:31:12 +0200
+
+gnome-theme-kali (1.0) kali-dev; urgency=low
+
+  * Initial Release.
+
+ -- Sophie Brun <sophie@freexian.com>  Tue, 26 May 2015 15:25:06 +0200

@@ -1,0 +1,16 @@
+Source: gnome-theme-reddragon
+Section: gnome
+Priority: optional
+Maintainer: Pratik Raj <rajpratik71@gmail.com>
+Uploaders: Sophie Brun <sophie@freexian.com>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.4
+Vcs-Git: git://github.com/Rajpratik71/gnome-theme-reddragon.git
+Vcs-Browser: https://github.com/Rajpratik71/gnome-theme-reddragon.git
+
+Package: gnome-theme-reddragon
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, gtk2-engines-murrine
+Description: GNOME Theme Reddragon
+ This package contains the GNOME Theme for Reddragon OS. It includes a GTK theme,
+ a GNOME Shell theme, a window manager theme, and more.

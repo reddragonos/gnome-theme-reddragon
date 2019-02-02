@@ -1,0 +1,4 @@
+GDM/theme/KaliLogin.png usr/share/gnome-shell/theme/
+GDM/theme/gnome-shell.css usr/share/gnome-shell/theme/
+GTK-And-GnomeShell-Theme/* usr/share/themes/
+Icon-Theme/* usr/share/icons/

@@ -1,0 +1,22 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+    remove)
+        dpkg-divert --rename --package gnome-theme-reddragon \
+                    --divert /usr/share/gnome-shell/theme/gnome-shell.css.original \
+                    --remove /usr/share/gnome-shell/theme/gnome-shell.css
+    ;;
+
+    purge|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
+
+    ;;
+
+    *)
+        echo "postrm called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+#DEBHELPER#
