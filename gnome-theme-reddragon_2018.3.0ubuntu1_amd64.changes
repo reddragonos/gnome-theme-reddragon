@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sat, 02 Feb 2019 14:37:40 +0530
+Source: gnome-theme-reddragon
+Binary: gnome-theme-reddragon
+Architecture: source all
+Version: 2018.3.0ubuntu1
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Pratik Raj <rajpratik71@gmail.com>
+Changed-By: reddragon <reddragon@reddragon-Aspire-E5-573G>
+Description:
+ gnome-theme-reddragon - GNOME Theme Reddragon
+Changes:
+ gnome-theme-reddragon (2018.3.0ubuntu1) UNRELEASED; urgency=medium
+ .
+   *
+Checksums-Sha1:
+ 5e01abbcbb3bd4852bcbdb7b6e8b5e8edb886f3f 818 gnome-theme-reddragon_2018.3.0ubuntu1.dsc
+ 5eba555e5a49b9bd547751eff8bd988038a4a180 21940732 gnome-theme-reddragon_2018.3.0ubuntu1.tar.xz
+ 4fcce9fa23ee3dfd1e78bc553f13b7e053af4ed2 22064672 gnome-theme-reddragon_2018.3.0ubuntu1_all.deb
+ a137a4d56ac76d5cd081a10edb2962acabdc4003 13344 gnome-theme-reddragon_2018.3.0ubuntu1_amd64.buildinfo
+Checksums-Sha256:
+ 9bfbb7655bb947e6fc7881b6d6ebe5a6ce3290489439ad9e3161a24e950a6851 818 gnome-theme-reddragon_2018.3.0ubuntu1.dsc
+ 88e7c70b01275bf2c461e1e14c11df6248d98b8c8da51c8af9cd1c69056e9edc 21940732 gnome-theme-reddragon_2018.3.0ubuntu1.tar.xz
+ 91ea0645c4b93d2601f27207e2f73b06d217203c88d31a3121613e826e7f7d6c 22064672 gnome-theme-reddragon_2018.3.0ubuntu1_all.deb
+ c9243d9eacf39f3d9e5cea407d5ba50a53304bdf9cf1daa6ebbc57326911c901 13344 gnome-theme-reddragon_2018.3.0ubuntu1_amd64.buildinfo
+Files:
+ 9fde19917693eaf19e8d10dc6fa4e6f8 818 gnome optional gnome-theme-reddragon_2018.3.0ubuntu1.dsc
+ efcebb058fd9126e05d40f2c81efdd79 21940732 gnome optional gnome-theme-reddragon_2018.3.0ubuntu1.tar.xz
+ 06720e43b467f751d58c3eb87d33d421 22064672 gnome optional gnome-theme-reddragon_2018.3.0ubuntu1_all.deb
+ bdbd7ba06609bbbebde281852e0b2814 13344 gnome optional gnome-theme-reddragon_2018.3.0ubuntu1_amd64.buildinfo

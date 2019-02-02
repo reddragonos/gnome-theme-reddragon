@@ -1,3 +1,11 @@
+gnome-theme-reddragon (2018.3.0ubuntu1) UNRELEASED; urgency=medium
+
+  * Major Release as ported from debian
+  * Removed Icon-Themes Vibrancy-Kali-Full and Vibrancy-Kali-Full-Dark as found useful and have issue
+  * GTK-And-GnomeShell-Theme are still there and original from kali
+
+ -- reddragon <reddragon@reddragon-Aspire-E5-573G>  Sat, 02 Feb 2019 14:37:40 +0530
+
 gnome-theme-kali (2018.3.0) kali-dev; urgency=medium
 
   * Update Kali-X theme and fix Kali-X-Dark theme (see bug 4585)

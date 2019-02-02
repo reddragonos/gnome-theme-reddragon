@@ -1,0 +1,30 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+    remove)
+        dpkg-divert --rename --package gnome-theme-reddragon \
+                    --divert /usr/share/gnome-shell/theme/gnome-shell.css.original \
+                    --remove /usr/share/gnome-shell/theme/gnome-shell.css
+    ;;
+
+    purge|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
+
+    ;;
+
+    *)
+        echo "postrm called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+# Automatically added by dh_installdeb/10.7.2ubuntu2~ubuntu16.04.1~c42.ppa1
+dpkg-maintscript-helper dir_to_symlink /usr/share/themes/Kali-X/gtk-3.0 gtk-3.20 2016.1.0 -- "$@"
+# End automatically added section
+# Automatically added by dh_icons/10.7.2ubuntu2~ubuntu16.04.1~c42.ppa1
+if which update-icon-caches >/dev/null 2>&1 ; then
+	update-icon-caches /usr/share/icons/Vibrancy-Kali
+fi
+# End automatically added section
+

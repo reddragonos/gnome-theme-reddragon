@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb/10.7.2ubuntu2~ubuntu16.04.1~c42.ppa1
+dpkg-maintscript-helper dir_to_symlink /usr/share/themes/Kali-X/gtk-3.0 gtk-3.20 2016.1.0 -- "$@"
+# End automatically added section

@@ -1,0 +1,11 @@
+Package: gnome-theme-reddragon
+Version: 2018.3.0ubuntu1
+Architecture: all
+Maintainer: Pratik Raj <rajpratik71@gmail.com>
+Installed-Size: 65189
+Depends: gtk2-engines-murrine
+Section: gnome
+Priority: optional
+Description: GNOME Theme Reddragon
+ This package contains the GNOME Theme for Reddragon OS. It includes a GTK theme,
+ a GNOME Shell theme, a window manager theme, and more.
